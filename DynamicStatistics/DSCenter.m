@@ -8,6 +8,10 @@
 
 #import "DSCenter.h"
 
+#ifndef DEBUG
+#define DEBUG 0
+#endif
+
 @interface DSCenter ()
 
 - (void)applyOnlineConfig;
